@@ -53,13 +53,13 @@ cacheSolve <- function(x, ...) {
 
 ## calculate inverse matrix of mx and cache it
 ## > cacheinv(m1)
-##             [,1]       [,2]
+##            [,1]       [,2]
 ## [1,] -0.3333333  0.6666667
 ## [2,]  0.6666667 -0.3333333
 
 ## get the calculated inverse martrix
 ## > m1$getinv()
-##              [,1]       [,2]
+##            [,1]       [,2]
 ## [1,] -0.3333333  0.6666667
 ## [2,]  0.6666667 -0.3333333
 
@@ -72,7 +72,7 @@ cacheSolve <- function(x, ...) {
 ## re-run and show the cached inverse matrix
 ## > cacheinv(m1)
 ## getting cached inverse matrix
-##             [,1]       [,2]
+##            [,1]       [,2]
 ## [1,] -0.3333333  0.6666667
 ## [2,]  0.6666667 -0.3333333
 
